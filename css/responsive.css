@@ -1,0 +1,38 @@
+@media (max-width: 1186px) {
+  body {
+    width: 50%;
+  }
+  .nav-wrapper {
+    min-width: 100%;
+    background-color: aqua;
+  }
+  .about__us {
+    width: 100%;
+  }
+  .blank__space {
+    width: 100%;
+  }
+  .clients__wrapper {
+    width: 100%;
+  }
+  .clients {
+    width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+  }
+  .clients {
+    width: 100%;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  .left-form,
+  .right-form {
+    width: 50%;
+    padding: 0 20px 0 20px;
+  }
+  footer .container {
+    width: 100%;
+  }
+}
