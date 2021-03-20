@@ -66,6 +66,10 @@ h1 {
 }
 /* ========== INTRO_END ========== */
 /* ========== NAV ========== */
+.main-nav input[type="checkbox"] {
+  position: absolute;
+  left: -999999px;
+}
 .nav-border {
   border-bottom: 1px solid #ffe600;
 }
@@ -85,16 +89,16 @@ h1 {
 .img-holder img:last-of-type {
   width: 134px;
 }
-nav {
+nav ul {
   display: flex;
 }
-nav a {
+nav ul a {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   text-transform: uppercase;
-  font: 15px/15px 'Roboto', sans-serif;
+  font: 15px/15px "Roboto", sans-serif;
   font-weight: 400;
   color: #8e8e8e;
   width: 88px;
@@ -326,8 +330,8 @@ textarea:focus {
   padding: 0 20px;
   cursor: pointer;
 }
-input[type="radio"],
-input[type="checkbox"] {
+form input[type="radio"],
+form input[type="checkbox"] {
   position: absolute;
   left: -999999px;
 }
